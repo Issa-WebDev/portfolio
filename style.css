@@ -29,7 +29,7 @@ body {
   background-image: linear-gradient(90deg, #040317, #041926 51%);
 }
 .header .logo {
-  font-size: 17px;
+  font-size: 19px;
 }
 .contact {
   display: flex;
@@ -84,11 +84,16 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+.me h3 {
+  font-size: 18px;
+}
 .me p {
-  font-size: 14px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
 }
 .intro .text {
-  font-size: 14px;
+  font-size: 15px;
   width: 75%;
   padding: 30px 0 30px 0;
 }
@@ -121,7 +126,7 @@ body {
   z-index: -1;
 }
 .img-project img {
-  height: 40px;
+  height: 50px;
 }
 .box-project {
   display: grid;
@@ -207,7 +212,7 @@ body {
   padding-bottom: 20px;
 }
 .footer .text {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 30px;
   padding-bottom: 20px;
 }
@@ -220,7 +225,7 @@ body {
 }
 .copyright {
   padding-top: 40px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1080px) {
